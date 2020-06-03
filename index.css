@@ -168,7 +168,9 @@ body  {
     padding: 15% auto;
 }
 
-
+strong  {
+    font-weight: bold;
+}
 
 .foot-container  {
     background-color: ;
