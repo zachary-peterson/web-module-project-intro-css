@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*  {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px grey solid;
+}
+
+body  {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 62.5%;
+}
+
+.nav {
+    height: 20vh;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a {
+    color: #FFFFFF;
+    margin: 2% 7.5%;
+    text-decoration: none;
+    border-radius: 25px;
+    width: 15%;
+    padding: 1.5% 2%;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.nav1  {
+    display:inline-block;
+    background-color:#FF764E;
+}
+
+.nav2  {
+    display:inline-block;
+    background-color:#5ED3EB;
+}
+
+.nav3  {
+    display:inline-block;
+    background-color:#FFCD69;
+}
+
+.head-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.head-image-container  {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.head-image-container img  {
+    border-radius: 50%;
+}
+
+.head-info  {
+    display: inline-block;
+    width: 65%;
+    margin: 3% 0 3% 0;
+}
+
+.head-info h1  {
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+    padding: 3% 0 0 0;
+}
+
+.head-info p  {
+    font-size: 1.5rem;
+    padding: 2.5% 0 0 0;
+}
+
+.section-one  {
+    background-color: #DDB9A3;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 1% auto;
+    padding: 2.5% 2.5%;
+    color: #FFFFFF;
+}
+
+.section-one p  {
+    padding: 15% auto;
+}
+
+.foot-container  {
+    background-color: #F9E7DC;
+}
+
+.image-one  {
+    width: 40%;
+}
+
+.section-two  {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.section-two p  {
+    display: block;
+    font-size: 1.5rem;    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image-two  {
+    width: 40%;
+}
